@@ -51,8 +51,8 @@ const Contact: React.FC = () => {
                 </div>
                 <div className="ml-4">
                   <h4 className="text-lg font-semibold text-gray-900 dark:text-white">Email</h4>
-                  <p className="text-gray-600 dark:text-gray-300">hello@techtrack.com</p>
-                  <p className="text-gray-600 dark:text-gray-300">support@techtrack.com</p>
+                  <p className="text-gray-600 dark:text-gray-300">techtrackagency@gmail.com</p>
+                  {/* <p className="text-gray-600 dark:text-gray-300">support@techtrack.com</p> */}
                 </div>
               </div>
 
@@ -62,8 +62,8 @@ const Contact: React.FC = () => {
                 </div>
                 <div className="ml-4">
                   <h4 className="text-lg font-semibold text-gray-900 dark:text-white">Phone</h4>
-                  <p className="text-gray-600 dark:text-gray-300">+1 (555) 123-4567</p>
-                  <p className="text-gray-600 dark:text-gray-300">+1 (555) 765-4321</p>
+                  <p className="text-gray-600 dark:text-gray-300">+91 8989246692</p>
+                  <p className="text-gray-600 dark:text-gray-300">+91 82719 99731</p>
                 </div>
               </div>
 
@@ -73,8 +73,9 @@ const Contact: React.FC = () => {
                 </div>
                 <div className="ml-4">
                   <h4 className="text-lg font-semibold text-gray-900 dark:text-white">Office</h4>
-                  <p className="text-gray-600 dark:text-gray-300">123 Tech Street</p>
-                  <p className="text-gray-600 dark:text-gray-300">San Francisco, CA 94102</p>
+                  
+                  <p className="text-gray-600 dark:text-gray-300">Bhopal, Madhya Pradesh</p>
+                  <p className="text-gray-600 dark:text-gray-300">India</p>
                 </div>
               </div>
             </div>
@@ -184,10 +185,10 @@ const Contact: React.FC = () => {
                   className="w-full px-4 py-3 border border-gray-300 dark:border-gray-600 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent dark:bg-gray-700 dark:text-white transition-colors duration-200"
                 >
                   <option value="">Select budget range</option>
-                  <option value="10k-25k">$10,000 - $25,000</option>
-                  <option value="25k-50k">$25,000 - $50,000</option>
-                  <option value="50k-100k">$50,000 - $100,000</option>
-                  <option value="100k+">$100,000+</option>
+                  <option value="10k-25k">₹10,000 - ₹25,000</option>
+                  <option value="25k-50k">₹25,000 - ₹50,000</option>
+                  <option value="50k-100k">₹50,000 - ₹100,000</option>
+                  <option value="100k+">₹100,000+</option>
                 </select>
               </div>
 

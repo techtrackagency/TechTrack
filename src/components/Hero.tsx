@@ -49,9 +49,9 @@ const Hero: React.FC = () => {
 
         <div className="mt-16 grid grid-cols-1 md:grid-cols-3 gap-8 max-w-4xl mx-auto">
           {[
-            { number: '150+', label: 'Projects Completed' },
-            { number: '50+', label: 'Happy Clients' },
-            { number: '5+', label: 'Years Experience' },
+            { number: '15+', label: 'Projects Completed' },
+            { number: '5+', label: 'Happy Clients' },
+            { number: '2+', label: 'Years Experience' },
           ].map((stat, index) => (
             <div key={index} className="text-center">
               <div className="text-3xl md:text-4xl font-bold text-blue-600 dark:text-blue-400 mb-2">

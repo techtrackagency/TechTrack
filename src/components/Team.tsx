@@ -13,17 +13,16 @@ interface TeamMember {
     twitter?: string;
   };
 }
-
 const Team: React.FC = () => {
   const [filter, setFilter] = useState('All');
 
   const teamMembers: TeamMember[] = [
     {
-      name: 'Sarah Johnson',
-      role: 'Lead Full-Stack Developer',
+      name: 'Mohd Meraaz',
+      role: 'Lead | Android Developer',
       skills: ['Web', 'App'],
-      image: 'https://images.pexels.com/photos/1181690/pexels-photo-1181690.jpeg?auto=compress&cs=tinysrgb&w=400',
-      bio: 'Expert in React, Node.js, and cloud architecture with 6+ years experience.',
+      image: '../src/components/assets/profileIMG.jpg',
+      bio: 'Leads the team with expertise in Android development and web solutions. Skilled in  building scalable applications.',
       social: {
         github: '#',
         linkedin: '#',
@@ -31,62 +30,40 @@ const Team: React.FC = () => {
       }
     },
     {
-      name: 'Marcus Chen',
-      role: 'AI/ML Engineer',
-      skills: ['ML', 'Web'],
+      name: 'Khustar Hussain',
+      role: 'UI/UX Designer',
+      skills: ['Web'],
       image: 'https://images.pexels.com/photos/1040880/pexels-photo-1040880.jpeg?auto=compress&cs=tinysrgb&w=400',
-      bio: 'Specialized in machine learning, deep learning, and data science solutions.',
+      bio: 'Designs intuitive and user-friendly web interfaces with a focus on clean layouts and modern design principles.',
+      social: {
+        linkedin: '#',
+        twitter: '#'
+      }
+    },
+    {
+      name: 'Harshit Anand',
+      role: 'Mobile App Developer',
+      skills: ['App', 'Web'],
+      image: 'https://images.pexels.com/photos/1040880/pexels-photo-1040880.jpeg?auto=compress&cs=tinysrgb&w=400',
+      bio: 'Builds cross-platform mobile apps and web applications with a strong focus on performance and user experience.',
       social: {
         github: '#',
         linkedin: '#'
       }
     },
     {
-      name: 'Emily Rodriguez',
-      role: 'Mobile App Developer',
-      skills: ['App', 'Web'],
-      image: 'https://images.pexels.com/photos/1181686/pexels-photo-1181686.jpeg?auto=compress&cs=tinysrgb&w=400',
-      bio: 'Cross-platform mobile development expert with React Native and Flutter.',
-      social: {
-        github: '#',
-        linkedin: '#',
-        twitter: '#'
-      }
-    },
-    {
-      name: 'David Kim',
+      name: 'Suraj Pathak',
       role: 'DevOps Engineer',
       skills: ['Web', 'ML'],
       image: 'https://images.pexels.com/photos/1040881/pexels-photo-1040881.jpeg?auto=compress&cs=tinysrgb&w=400',
-      bio: 'Cloud infrastructure and deployment automation specialist.',
-      social: {
-        github: '#',
-        linkedin: '#'
-      }
-    },
-    {
-      name: 'Lisa Wang',
-      role: 'UI/UX Designer',
-      skills: ['Web', 'App'],
-      image: 'https://images.pexels.com/photos/1181519/pexels-photo-1181519.jpeg?auto=compress&cs=tinysrgb&w=400',
-      bio: 'Creative designer focused on user-centered design and modern interfaces.',
-      social: {
-        linkedin: '#',
-        twitter: '#'
-      }
-    },
-    {
-      name: 'Alex Thompson',
-      role: 'Backend Developer',
-      skills: ['Web', 'ML'],
-      image: 'https://images.pexels.com/photos/1043471/pexels-photo-1043471.jpeg?auto=compress&cs=tinysrgb&w=400',
-      bio: 'Scalable backend systems and API development expert.',
+      bio: 'Specialist in cloud infrastructure, CI/CD pipelines, and automating deployments for web and ML-powered applications.',
       social: {
         github: '#',
         linkedin: '#'
       }
     }
   ];
+
 
   const filters = ['All', 'Web', 'App', 'ML'];
 

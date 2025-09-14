@@ -15,7 +15,7 @@ const Services: React.FC = () => {
       icon: Smartphone,
       title: 'App Development',
       description: 'Native and cross-platform mobile applications that deliver exceptional user experiences.',
-      features: ['iOS & Android Apps', 'Cross-platform Solutions', 'UI/UX Design', 'App Store Optimization'],
+      features: ['Android Apps',  'UI/UX Design', 'App Store Optimization'],
       gradient: 'from-purple-500 to-pink-500',
       hoverGradient: 'hover:from-purple-600 hover:to-pink-600'
     },

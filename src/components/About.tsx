@@ -83,11 +83,11 @@ const About: React.FC = () => {
             </div>
             <div className="text-center lg:text-right">
               <div className="inline-block bg-white/10 backdrop-blur-sm rounded-2xl p-8">
-                <div className="text-4xl font-bold mb-2">5+</div>
+                <div className="text-4xl font-bold mb-2">2+</div>
                 <div className="text-lg mb-4">Years of Excellence</div>
-                <div className="text-4xl font-bold mb-2">150+</div>
+                <div className="text-4xl font-bold mb-2">15+</div>
                 <div className="text-lg mb-4">Projects Delivered</div>
-                <div className="text-4xl font-bold mb-2">50+</div>
+                <div className="text-4xl font-bold mb-2">5+</div>
                 <div className="text-lg">Happy Clients</div>
               </div>
             </div>

@@ -36,30 +36,7 @@ const Testimonials: React.FC = () => {
       image: 'https://images.pexels.com/photos/1181686/pexels-photo-1181686.jpeg?auto=compress&cs=tinysrgb&w=400',
       rating: 5
     },
-    {
-      name: 'Robert Chen',
-      role: 'Product Manager',
-      company: 'DataDriven Corp',
-      content: 'The machine learning dashboard they created provides incredible insights into our business metrics. The team\'s expertise in AI is remarkable.',
-      image: 'https://images.pexels.com/photos/1043471/pexels-photo-1043471.jpeg?auto=compress&cs=tinysrgb&w=400',
-      rating: 5
-    },
-    {
-      name: 'Emma Rodriguez',
-      role: 'Director of Operations',
-      company: 'RetailPlus',
-      content: 'Tech Track modernized our entire web presence. The new site is fast, beautiful, and has significantly improved our conversion rates.',
-      image: 'https://images.pexels.com/photos/1181519/pexels-photo-1181519.jpeg?auto=compress&cs=tinysrgb&w=400',
-      rating: 5
-    },
-    {
-      name: 'David Thompson',
-      role: 'VP Technology',
-      company: 'FinanceForward',
-      content: 'Exceptional work on our financial analytics platform. The team delivered on time, within budget, and the quality exceeded our expectations.',
-      image: 'https://images.pexels.com/photos/1040881/pexels-photo-1040881.jpeg?auto=compress&cs=tinysrgb&w=400',
-      rating: 5
-    }
+    
   ];
 
   const companyLogos = [
