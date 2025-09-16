@@ -31,7 +31,7 @@ const Team: React.FC = () => {
     },
     {
       name: 'Khustar Hussain',
-      role: 'UI/UX Designer',
+      role: 'Full Stack Developer',
       skills: ['Web'],
       image: 'https://images.pexels.com/photos/1040880/pexels-photo-1040880.jpeg?auto=compress&cs=tinysrgb&w=400',
       bio: 'Designs intuitive and user-friendly web interfaces with a focus on clean layouts and modern design principles.',
@@ -61,7 +61,19 @@ const Team: React.FC = () => {
         github: '#',
         linkedin: '#'
       }
-    }
+    },
+    {
+  name: 'Moh Faiz Raza Qureshi',
+  role: 'Frontend Developer',
+  skills: ['Web'],
+  image: 'https://images.pexels.com/photos/1040881/pexels-photo-1040881.jpeg?auto=compress&cs=tinysrgb&w=400',
+  bio: 'Focused on building responsive and interactive web applications using modern frontend technologies and clean UI design.',
+  social: {
+    github: '#',
+    linkedin: '#'
+  }
+}
+
   ];
 
 
